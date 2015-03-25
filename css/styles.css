@@ -33,10 +33,11 @@ header h1 {
 }
 
 nav#mainmenu ul {
-	display: inline-block;
+	list-style: none;
 }
 
 nav#mainmenu ul li {
+	display: inline-block;
 	text-decoration: none;
 	margin-left: 1rem;
 }
