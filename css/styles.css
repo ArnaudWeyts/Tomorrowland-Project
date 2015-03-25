@@ -42,7 +42,7 @@ header {
 	background-image: url(../img/headerbackground.jpg);
 }
 
-#logo {
+#logo a {
 	width: 60rem;
 	height: 11rem;
 	background-image: url(../img/title_logo.png);
