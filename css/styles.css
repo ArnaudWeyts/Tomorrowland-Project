@@ -38,19 +38,18 @@ body {
 
 header {
 	text-align: center;
-	height: 18rem;
+	height: 15rem;
 	background-image: url(../img/headerbackground.jpg);
 }
 
-header h1 {
-	margin-bottom: 1.5rem;
+#logo {
+	width: 60rem;
+	height: 11rem;
+	background-image: url(../img/title_logo.png);
+	margin: 0 auto;
+	background-repeat: no-repeat;
 }
 
-header h1 a {
-	text-decoration: none;
-	font-size: 4.5rem;
-	color: #842ED1;
-}
 
 nav#mainmenu ul {
 	list-style: none;
@@ -58,13 +57,19 @@ nav#mainmenu ul {
 
 nav#mainmenu ul li {
 	display: inline-block;
-	font-size: 1.3rem;
+	font-size: 1.6rem;
 }
 
 nav#mainmenu ul li a {
 	text-decoration: none;
 	margin: 7rem;
 	padding: 0.5rem;
+	color: #000;
+}
+
+nav#mainmenu ul li a:hover {
+	color: #fff;
+	background-color: #000;
 }
 
 
