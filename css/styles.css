@@ -12,8 +12,24 @@ html {
 	font-size: 62.5%;
 }
 
+* {
+	margin: 0; /* wipe out browser differences for default values */
+	padding: 0; /* wipe out browser differences for default values  */
+	-webkit-box-sizing: border-box; /* use border-box box model everywhere */
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
 body {
 	font-family: Roboto, sans-serif;
+}
+
+.wrapper {
+	max-width: 100%;
+	min-width: 100%;
+	margin: auto;
 }
 
 /**=====================================
@@ -22,12 +38,17 @@ body {
 
 header {
 	text-align: center;
-	margin: 0 auto;
+	height: 18rem;
+	background-image: url(../img/headerbackground.jpg);
+}
+
+header h1 {
+	margin-bottom: 1.5rem;
 }
 
 header h1 a {
 	text-decoration: none;
-	font-size: 3.5rem;
+	font-size: 4.5rem;
 	color: #842ED1;
 }
 
@@ -37,12 +58,15 @@ nav#mainmenu ul {
 
 nav#mainmenu ul li {
 	display: inline-block;
-	padding: 2.5rem;
+	font-size: 1.3rem;
 }
 
 nav#mainmenu ul li a {
 	text-decoration: none;
+	margin: 7rem;
+	padding: 0.5rem;
 }
+
 
 /**=====================================
 *				FOOTER
@@ -52,6 +76,9 @@ footer {
 	color: #fff;
 	background-color: #000;
 	height: 10rem;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
 }
 
 footer ul#social {
@@ -60,5 +87,5 @@ footer ul#social {
 }
 
 footer ul#social li {
-	display: inline-block;
+	display: inline;
 }
