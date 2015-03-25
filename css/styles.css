@@ -21,15 +21,14 @@ body {
 ======================================*/
 
 header {
-	max-height: 20rem;
-	max-width: 96rem;
+	text-align: center;
+	margin: 0 auto;
 }
 
-header h1 {
-	text-align: center;
+header h1 a {
 	text-decoration: none;
-	font-size: 3rem;
-	color: ##842ED1;
+	font-size: 3.5rem;
+	color: #842ED1;
 }
 
 nav#mainmenu ul {
@@ -38,6 +37,28 @@ nav#mainmenu ul {
 
 nav#mainmenu ul li {
 	display: inline-block;
+	padding: 2.5rem;
+}
+
+nav#mainmenu ul li a {
 	text-decoration: none;
-	margin-left: 1rem;
+}
+
+/**=====================================
+*				FOOTER
+======================================*/
+
+footer {
+	color: #fff;
+	background-color: #000;
+	height: 10rem;
+}
+
+footer ul#social {
+	text-align: right;
+	list-style: none;
+}
+
+footer ul#social li {
+	display: inline-block;
 }
