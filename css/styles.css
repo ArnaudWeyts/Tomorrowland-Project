@@ -13,5 +13,30 @@ html {
 }
 
 body {
-	font-family: roboto;
+	font-family: Roboto, sans-serif;
+}
+
+/**=====================================
+*				HEADER
+======================================*/
+
+header {
+	max-height: 20rem;
+	max-width: 96rem;
+}
+
+header h1 {
+	text-align: center;
+	text-decoration: none;
+	font-size: 3rem;
+	color: ##842ED1;
+}
+
+nav#mainmenu ul {
+	display: inline-block;
+}
+
+nav#mainmenu ul li {
+	text-decoration: none;
+	margin-left: 1rem;
 }
