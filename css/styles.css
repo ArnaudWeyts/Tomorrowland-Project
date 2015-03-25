@@ -51,23 +51,23 @@ header {
 }
 
 
-nav#mainmenu ul {
+#mainmenu ul {
 	list-style: none;
 }
 
-nav#mainmenu ul li {
+#mainmenu ul li {
 	display: inline-block;
 	font-size: 1.6rem;
 }
 
-nav#mainmenu ul li a {
+#mainmenu ul li a {
 	text-decoration: none;
 	margin: 7rem;
 	padding: 0.5rem;
 	color: #000;
 }
 
-nav#mainmenu ul li a:hover {
+#mainmenu ul li a:hover {
 	color: #fff;
 	background-color: #000;
 }

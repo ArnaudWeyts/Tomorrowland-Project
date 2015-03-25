@@ -2,6 +2,15 @@ html {
 	font-size: 62.5%;
 }
 
+/**=====================================
+*				HEADER
+======================================*/
+
+#mainmenu #home a {
+	color: #fff;
+	background-color: #000;
+}
+
 section#video {
 	text-align: center;
 	background-color: #000;
