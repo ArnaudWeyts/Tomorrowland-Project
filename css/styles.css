@@ -1,0 +1,17 @@
+/**
+ *	General stylesheet for Tomorrowland-Project
+ *	@author Arnaud Weyts <arnaud.weyts@student.odisee.be>
+ *	@version 3-25-2015
+ */
+
+/**=====================================
+*				GENERAL
+======================================*/
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: roboto;
+}
