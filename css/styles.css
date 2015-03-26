@@ -40,16 +40,23 @@ header {
 	height: 15rem;
 }
 
-#logo a {
+header h1 a {
+	text-decoration: none;
+	font-size: 6.5rem;
+	color: #000;
+}
+
+/*#logo a {
 	width: 60rem;
 	height: 11rem;
 	background-image: url(../img/title_logo.png);
 	margin: 0 auto;
 	background-repeat: no-repeat;
-}
+}*/
 
 
 #mainmenu ul {
+	padding: 3rem;
 	list-style: none;
 }
 
