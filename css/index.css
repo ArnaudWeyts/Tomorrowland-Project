@@ -1,6 +1,16 @@
+/**=====================================
+*				GENERAL
+======================================*/
+
 html {
 	font-size: 62.5%;
 }
+
+body {
+	font-size: 1.3rem;
+	width: 100%;
+}
+
 
 /**=====================================
 *				HEADER
@@ -11,8 +21,177 @@ html {
 	background-color: #000;
 }
 
+/**=====================================
+*				CONTENT
+======================================*/
+
 section#video {
 	background-color: #000;
 	text-align: center;
-	height: 48rem;
 }
+
+section#featured {
+	width: 100%;
+	margin: -4.5rem auto;
+	text-align: center;
+	position: relative;
+	background-color: #BC3427;
+	margin-bottom: 4rem;
+}
+
+section#featured h2 {
+	text-align: left;
+	font-size: 3rem;
+	padding: 0.5rem 2rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
+	background-color: #FFFFFF;
+}
+
+section#featured ul {
+	display: inline-block;
+}
+
+section#featured ul li {
+	display: inline-block;
+}
+
+section#featured ul li section#pictitle {
+	background-color: #EB4A3E;
+	margin-bottom: 0.3rem;
+		
+}
+
+section#featured ul li section#pictitle h3 a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #000000;		
+}
+
+section#featured img {
+	width: 17rem;	
+}
+
+section#featured li p {
+	background-color: #000000;
+	color: #BC3427;
+	font-size: 2rem;
+}
+
+div.column {
+	width: 45%;
+	margin: 2rem;
+}
+
+.column section h2 {
+	font-size: 2.7rem;
+	background-color: #000000;
+	color: #FFFFFF;
+	padding: 0.5rem;
+	margin-bottom: 1rem;
+}
+
+.column:nth-of-type(1) {
+	
+}
+
+section#in_the_news article {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	padding-bottom: 3rem;
+}
+
+section#in_the_news article:nth-of-type(1) {
+	border-bottom: 1px solid #000000;
+}
+
+
+section#in_the_news article:nth-of-type(2) {
+	border-bottom: 1px solid #000000;
+}
+
+section#in_the_news article h1 {
+	margin-bottom: 0.5rem;
+}
+
+.date {
+	background-color: #FFFFFF;
+	width: 7rem;
+	height: 7rem;
+	float: left;
+	margin-right: 2rem;
+}
+
+.date p:nth-of-type(1) {
+	text-align: center;
+	font-size: 2rem;
+}
+
+.date p:nth-of-type(2) {
+	text-align: center;
+	font-weight: bold;
+	font-size: 2.7rem;
+}
+
+.column section img {
+	width: 65%;
+	float: left;
+	margin-right: 1rem;
+}
+
+.column section#picofday dt {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.column aside {
+	border-top: 1px solid #000000;
+	margin-top: 9rem;
+	margin-bottom: 2rem;
+}
+
+.column aside li {
+	list-style: none;
+}
+
+.column aside h2 {
+	padding-left: 0.5rem;
+	background-color: #EB4A3E;
+	width: 7rem;
+}
+
+.column aside ul li img{
+	margin: 1rem;
+	width: 3.5rem;
+}
+
+.column aside ul li p {
+	background-color: #000000;
+	color: #FFFFFF;
+	width: 7rem;
+	padding: 0.5rem;
+	margin-left: 6rem;
+	margin-top: -4.2rem;
+}
+
+section#partners {
+	clear: both;
+	border-top: 1px solid #000000;
+	margin: 2rem;
+}
+
+section#partners h2 {
+	font-size: 2.7rem;
+	width: 12rem;
+	background-color: #EB4A3E;
+	color: #000000;
+	padding-left: 1rem;
+	float: left;
+	margin-right: 5rem;
+}
+
+section#partners img {
+	width: 8rem;
+	margin: 0 2rem;
+}
+

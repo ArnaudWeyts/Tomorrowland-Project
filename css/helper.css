@@ -20,6 +20,10 @@
 	clear: both;
 }
 
+.clearfix { 
+	zoom: 1;
+}
+
 .ir {
 	display: block;
 	background-size: 100%; 
@@ -31,4 +35,3 @@
 ul.inline li {
 	display: inline-block;
 }
-

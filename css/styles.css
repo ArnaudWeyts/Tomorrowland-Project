@@ -27,8 +27,9 @@ body {
 }
 
 .wrapper {
-	max-width: 100%;
-	min-width: 100%;
+	min-width: 36rem;
+	max-width: 96rem;
+	margin: 0 auto;
 }
 
 /**=====================================
@@ -78,39 +79,63 @@ header h1 a {
 }
 
 
+.column {
+	float: left;
+}
+
 /**=====================================
 *				FOOTER
 ======================================*/
 
 footer {
-	color: #000;
-    bottom: 0;
-    height: 100px;
-    width: 100%;
-	display: table;
+    	height: 5rem;
+    	width: 100%;
+	background-color: #000000;
+	line-height: 5rem;
 }
 
 #copyright {
-	display: table-cell;
-	vertical-align: middle;
-	padding: 2rem;
-	padding-left: 10rem;
+	float: left;
+	padding: 0;
+	color: #FFFFFF;
 }
 
-footer dl#social {
-	padding: 2rem;
-	padding-right: 10rem;
-	text-align: right;
+ul#social {
+	float: right;
+}
+
+ul#social p {
+	color: #FFFFFF;
+	float:  left;	
+}
+
+ul#social li {
+	display: inline-block;
 	list-style: none;
-	display: table-cell;
-	vertical-align: middle;
+	margin-left: 1rem;
 }
 
-footer dl#social dt {
-	margin-right: 1rem;
+ul#social li a {
+	width: 21px;
+	height: 21px;
 	display: inline-block;
+	background-image: url(../img/sprite.png);
+	background-repeat: no-repeat;
+	background-size: 63px 21px;
+	white-space: nowrap;
+  	text-indent: 100%;
+  	overflow: hidden; 
+  	vertical-align: middle;
 }
 
-footer dl#social dd {
-	display: inline-block;
+ul#social .facebook {
+	background-position: 0 0;
+}
+
+ul#social .twitter {
+	background-position: -21px 0;
+}
+
+ul#social .youtube {
+	background-position: -42px 0;
 }
