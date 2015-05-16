@@ -150,6 +150,10 @@ section#in_the_news article h1 {
 	margin-bottom: 2rem;
 }
 
+.column aside a {
+	text-decoration: none;
+}
+
 .column aside li {
 	list-style: none;
 }
