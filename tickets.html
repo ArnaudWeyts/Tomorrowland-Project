@@ -12,14 +12,13 @@
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="stylesheet" type="text/css" href="css/helper.css">
 	<link rel="stylesheet" type="text/css" href="css/tickets.css">
-	<script type="text/javascript"></script> 
-	<!-- zoom fix google chrome -->
 </head>
 <body>
 	<div class="wrapper">
 		<header>
 			<h1 id="logo"><a href="index.html">Tomorrowland</a></h1>
 			<nav id="mainmenu">
+				<h2 class="structural">Navigatie</h2>
 				<ul>
 					<li id="home"><a href="index.html">Home</a></li>
 					<li id="artists"><a href="artists.html">Artists</a></li>
@@ -30,14 +29,59 @@
 		</header>
 	</div>
 	<div class="wrapper">
+		<h2>Buying tickets</h2>
+		<form action="#" method="post" enctype="multipart/form-data">
+			<h3>Personal details</h3>
+			<dl class="clearfix">
+				<dt><label for="first name">First name:</label></dt>
+				<dd><input type="text" id="firstname" name="firstname" required/></dd>
+				<dt><label for="last name">Last name:</label></dt>
+				<dd><input type="text" id="lastname" name="lastname" required/></dd>
+				<dt><label for="age">Age:</label></dt>
+				<dd><input type="number" name="age" id="age" value="18" /></dd>
+				<dt><label for="contactemail">E-mail:</label></dt>
+				<dd><input type="email" id="contactemail" name="contactemail" required/></dd>
+				<dt><label for="telephone">Telephone:</label></dt>
+				<dd><input type="text" id="telephone" name="telephone" required/></dd>
+			</dl>
+			<h4>Address &amp; Payment</h4>
+			<dl>
+				<dt><label for="street">Street:</label></dt>
+				<dd><input type="text" id="street" name="street" required></dd>
+				<dt><label for="streetnumber">Street number or P.O. Box:</label></dt>
+				<dd><input type="text" id="streetnumber" name="streetnumber" required></dd>
+				<dt><label for="city">City:</label></dt>
+				<dd><input type="text" id="city" name="city" required></dd>
+				<dt><label for="country">Country:</label></dt>
+				<dd><input type="text" id="country" name="country" required></dd>
+				<dt><label for="ticket">Choose your ticket: </label></dt>
+				<dd>
+					<input type="radio" name="friday" checked />Friday
+					<input type="radio" name="saturday" />Saturday
+					<input type="radio" name="sunday">Sunday
+					<input type="radio" name="combi">Combi
+					<input type="radio" name="combi">VIP
 
+				</dd>
+				<dt><label for="payment">Payment method:</label></dt>
+				<dd>
+					<select id="payment" required>
+						<option>VISA</option>
+						<option>Paypal</option>
+						<option>Paysafecard</option>
+					</select>
+				</dd>
+			</dl>
+			<p id="buttonrow">
+				<input type="submit" value="Continue to payment" />
+			</p>
+		</form>
 	</div>
 	<!-- FOOTER -->	
 	<footer>
 		<div class="wrapper">
 			<p id="copyright">© 2015 Arnaud Weyts</p>
 			<ul id="social">
-				<p>follow us:</p>
 				<li><a href="http://facebook.com/tomorrowland" class="facebook">Facebok</a></li>
 				<li><a href="http://twitter.com/tomorrowland" class="twitter">Twitter</a></li>
 				<li><a href="http://youtube.com/tomorrowland" class="youtube">Youtube</a></li>

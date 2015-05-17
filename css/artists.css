@@ -10,3 +10,101 @@ html {
 	color: #fff;
 	background-color: #000;
 }
+
+/**=====================================
+*				CONTENT
+======================================*/
+
+section h2 {
+	font-size: 2.7rem;
+	background-color: #EB4A3E;
+	color: #000000;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	padding:  0 1rem;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+section article img {
+	width: 20rem;
+}
+
+section article {
+	margin-bottom: 3rem;
+}
+
+section article:nth-of-type(odd) {
+	background-color: #000000;
+	color: #FFFFFF;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+section article:nth-of-type(odd) img {
+	float: left;
+	margin-right: 1rem;
+}
+
+section article:nth-of-type(even) img {
+	float: right;
+	margin-left: 1rem;
+}
+
+section article section {
+	padding: 1rem;
+}
+
+section article section h1 {
+	width: 35rem;
+	padding: 0.2rem 1rem;
+	font-size: 1.6rem;
+	margin-bottom: 1rem;
+}
+
+section article:nth-of-type(odd) section h1 {
+	background-color: #FFFFFF;
+	color: #000000;
+	margin-left: 20rem;
+}
+
+section article:nth-of-type(even) section h1 {
+	background-color: #000000;
+	color: #FFFFFF ;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+section article section dl {
+	margin-bottom: 1rem;
+}
+
+section article:nth-of-type(odd) section dl {
+	margin-left: 21rem;
+}
+
+section article:nth-of-type(even) section dl {
+	margin-left: 1rem;
+}
+
+section article:nth-of-type(odd) section p {
+	margin-left: 21rem;
+}
+
+section article:nth-of-type(even) section p {
+	margin-left: 1rem;
+}
+
+section article section dl dt {
+	float: left;
+	color: #EB4A3E;
+}
+
+
+section article section dl dt:after {
+	content: ":";
+	margin-right: 0.2rem;
+}

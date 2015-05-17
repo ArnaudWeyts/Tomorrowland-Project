@@ -10,3 +10,67 @@ html {
 	color: #fff;
 	background-color: #000;
 }
+
+/**=====================================
+*				CONTENT
+======================================*/
+
+h2 {
+	font-size: 2.7rem;
+	background-color: #000000;
+	color: #FFFFFF;
+	padding: 0.5rem;
+	margin-top: 3rem;
+	margin-bottom: 1rem;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+h3 {
+	font-size: 2rem;
+}
+
+h4 {
+	font-size: 1.5rem;
+	margin: 0.5rem 0;
+}
+
+dl {
+	width: 50rem;
+	margin-top: 0.5rem;
+}
+
+dt {
+	width: 15rem;
+	float: left;
+}
+
+dd {
+	width: 35rem;
+	float: left;
+}
+
+dt,dd {
+	height: 2.4rem;
+	line-height: 2.4rem;
+}
+
+input#age {
+	width: 4rem;
+}
+
+p#buttonrow {
+	padding-left: 15rem;
+	padding-top: 1rem;
+	clear: both;
+}
+
+p#buttonrow input {
+	font-size: 1.6rem;
+}
+
+footer {
+	margin-top: 2rem;
+	clear: both;
+}

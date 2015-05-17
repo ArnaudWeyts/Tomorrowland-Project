@@ -24,6 +24,7 @@ html {
 
 body {
 	font-family: Roboto, sans-serif;
+	font-size: 1.3rem;
 }
 
 .wrapper {
@@ -47,33 +48,26 @@ header h1 a {
 	color: #000;
 }
 
-/*#logo a {
-	width: 60rem;
-	height: 11rem;
-	background-image: url(../img/title_logo.png);
-	margin: 0 auto;
-	background-repeat: no-repeat;
-}*/
-
-
-#mainmenu ul {
+nav#mainmenu ul {
 	padding: 3rem;
 	list-style: none;
 }
 
-#mainmenu ul li {
+nav#mainmenu ul li {
 	display: inline-block;
 	font-size: 1.6rem;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
 }
 
-#mainmenu ul li a {
+nav#mainmenu ul li a {
 	text-decoration: none;
 	margin: 7rem;
 	padding: 0.5rem;
 	color: #000;
 }
 
-#mainmenu ul li a:hover {
+nav#mainmenu ul li a:hover {
 	color: #fff;
 	background-color: #000;
 }
@@ -102,11 +96,6 @@ footer {
 
 ul#social {
 	float: right;
-}
-
-ul#social p {
-	color: #FFFFFF;
-	float:  left;	
 }
 
 ul#social li {

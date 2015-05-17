@@ -35,3 +35,8 @@
 ul.inline li {
 	display: inline-block;
 }
+
+.structural {
+	text-indent: 100%;
+	overflow: hidden;
+}

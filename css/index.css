@@ -37,6 +37,9 @@ section#featured {
 	position: relative;
 	background-color: #BC3427;
 	margin-bottom: 4rem;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 }
 
 section#featured h2 {
@@ -56,26 +59,35 @@ section#featured ul li {
 	display: inline-block;
 }
 
-section#featured ul li section#pictitle {
+.pictitle {
 	background-color: #EB4A3E;
 	margin-bottom: 0.3rem;
+	-webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.59);
+	-moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.59);
+	box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.59);
 		
 }
 
-section#featured ul li section#pictitle h3 a {
+.pictitle h3 a {
 	text-transform: uppercase;
 	text-decoration: none;
-	color: #000000;		
+	color: #000000;	
 }
 
 section#featured img {
-	width: 17rem;	
+	width: 17rem;
+	-webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.59);
+	-moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.59);
+	box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.59);
 }
 
 section#featured li p {
 	background-color: #000000;
 	color: #BC3427;
 	font-size: 2rem;
+	-webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.59);
+	-moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.59);
+	box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.59);
 }
 
 div.column {
@@ -89,10 +101,9 @@ div.column {
 	color: #FFFFFF;
 	padding: 0.5rem;
 	margin-bottom: 1rem;
-}
-
-.column:nth-of-type(1) {
-	
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 }
 
 section#in_the_news article {
@@ -162,6 +173,9 @@ section#in_the_news article h1 {
 	padding-left: 0.5rem;
 	background-color: #EB4A3E;
 	width: 7rem;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 }
 
 .column aside ul li img{
@@ -176,6 +190,9 @@ section#in_the_news article h1 {
 	padding: 0.5rem;
 	margin-left: 6rem;
 	margin-top: -4.2rem;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 }
 
 section#partners {
@@ -192,6 +209,9 @@ section#partners h2 {
 	padding-left: 1rem;
 	float: left;
 	margin-right: 5rem;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 }
 
 section#partners img {
