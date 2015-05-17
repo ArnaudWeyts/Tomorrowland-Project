@@ -31,6 +31,8 @@ body {
 	min-width: 36rem;
 	max-width: 96rem;
 	margin: 0 auto;
+	padding-left: 2rem;
+	padding-right: 2rem;
 }
 
 /**=====================================
@@ -65,6 +67,7 @@ nav#mainmenu ul li a {
 	margin: 7rem;
 	padding: 0.5rem;
 	color: #000;
+	transition: all 0.5s ease-in-out;
 }
 
 nav#mainmenu ul li a:hover {

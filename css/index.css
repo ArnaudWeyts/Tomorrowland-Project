@@ -35,7 +35,7 @@ section#featured {
 	margin: -4.5rem auto;
 	text-align: center;
 	position: relative;
-	background-color: #BC3427;
+	background-color: #0d47a1;
 	margin-bottom: 4rem;
 	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
@@ -60,7 +60,7 @@ section#featured ul li {
 }
 
 .pictitle {
-	background-color: #EB4A3E;
+	background-color: #1e88e5;
 	margin-bottom: 0.3rem;
 	-webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.59);
 	-moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.59);
@@ -83,7 +83,7 @@ section#featured img {
 
 section#featured li p {
 	background-color: #000000;
-	color: #BC3427;
+	color: #0d47a1;
 	font-size: 2rem;
 	-webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.59);
 	-moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.59);
@@ -171,7 +171,7 @@ section#in_the_news article h1 {
 
 .column aside h2 {
 	padding-left: 0.5rem;
-	background-color: #EB4A3E;
+	background-color: #1e88e5;
 	width: 7rem;
 	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
@@ -204,7 +204,7 @@ section#partners {
 section#partners h2 {
 	font-size: 2.7rem;
 	width: 12rem;
-	background-color: #EB4A3E;
+	background-color: #1e88e5;
 	color: #000000;
 	padding-left: 1rem;
 	float: left;

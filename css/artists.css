@@ -17,7 +17,7 @@ html {
 
 section h2 {
 	font-size: 2.7rem;
-	background-color: #EB4A3E;
+	background-color: #1e88e5;
 	color: #000000;
 	margin-top: 2rem;
 	margin-bottom: 2rem;
@@ -100,7 +100,7 @@ section article:nth-of-type(even) section p {
 
 section article section dl dt {
 	float: left;
-	color: #EB4A3E;
+	color: #1e88e5;
 }
 
 
