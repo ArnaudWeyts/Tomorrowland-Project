@@ -9,6 +9,7 @@
 	<title> Tickets | Tomorrowland</title>
 	<meta charset="utf-8" />
 	<link href='http://fonts.googleapis.com/css?family=Roboto:900,400italic,700italic,300,700,300italic,400' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="stylesheet" type="text/css" href="css/helper.css">
 	<link rel="stylesheet" type="text/css" href="css/tickets.css">
@@ -33,9 +34,9 @@
 		<form action="#">
 			<h3>Personal details</h3>
 			<dl class="clearfix">
-				<dt><label for="first name">First name:</label></dt>
+				<dt><label for="firstname">First name:</label></dt>
 				<dd><input type="text" id="firstname" name="firstname" required/></dd>
-				<dt><label for="last name">Last name:</label></dt>
+				<dt><label for="lastname">Last name:</label></dt>
 				<dd><input type="text" id="lastname" name="lastname" required/></dd>
 				<dt><label for="age">Age:</label></dt>
 				<dd><input type="number" name="age" id="age" value="18" /></dd>
@@ -54,18 +55,18 @@
 				<dd><input type="text" id="city" name="city" required></dd>
 				<dt><label for="country">Country:</label></dt>
 				<dd><input type="text" id="country" name="country" required></dd>
-				<dt><label for="ticket">Choose your ticket: </label></dt>
+				<dt><label>Choose your ticket:</label></dt>
 				<dd>
-					<input type="radio" name="friday" checked />Friday
-					<input type="radio" name="saturday" />Saturday
-					<input type="radio" name="sunday">Sunday
-					<input type="radio" name="combi">Combi
-					<input type="radio" name="combi">VIP
+					<input type="radio" name="ticket" checked />Friday
+					<input type="radio" name="ticket" />Saturday
+					<input type="radio" name="ticket">Sunday
+					<input type="radio" name="ticket">Combi
+					<input type="radio" name="ticket">VIP
 
 				</dd>
 				<dt><label for="payment">Payment method:</label></dt>
 				<dd>
-					<select id="payment" required>
+					<select id="payment">
 						<option>VISA</option>
 						<option>Paypal</option>
 						<option>Paysafecard</option>
